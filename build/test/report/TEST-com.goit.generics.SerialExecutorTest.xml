@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Igor-PC" name="com.goit.generics.SerialExecutorTest" skipped="0" tests="3" time="0.211" timestamp="2016-07-16T20:11:32">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="dist" value="F:\Studies\generics_ant\dist" />
+    <property name="os.name" value="Windows 10" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes" />
+    <property name="test.build" value="F:\Studies\generics_ant\build\test" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Users\User\apache-ant-1.9.7" />
+    <property name="java.runtime.version" value="1.8.0_77-b03" />
+    <property name="test.report" value="F:\Studies\generics_ant\build\test\report" />
+    <property name="user.name" value="User" />
+    <property name="user.language" value="ru" />
+    <property name="build" value="F:\Studies\generics_ant\build\main" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin" />
+    <property name="ant.file.GoIT" value="F:\Studies\generics_ant\build.xml" />
+    <property name="ant.project.name" value="GoIT" />
+    <property name="ant.file.type.GoIT" value="file" />
+    <property name="java.version" value="1.8.0_77" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="Cp1251" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="src" value="F:\Studies\generics_ant\src\main\java" />
+    <property name="user.country" value="RU" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="F:\Studies\generics_ant\build.xml" />
+    <property name="os.version" value="10.0" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.77-b03" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Users\User\apache-ant-1.9.7\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="sun.stdout.encoding" value="cp866" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\User" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Skype\Phone\;C:\Users\User\apache-ant-1.9.7\bin;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.goit.generics.SerialExecutorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,F:\Studies\generics_ant\build\test\report\TEST-com.goit.generics.SerialExecutorTest.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,F:\Studies\generics_ant\build\test\report\TEST-com.goit.generics.SerialExecutorTest.xml crashfile=F:\Studies\generics_ant\junitvmwatcher8746592806231518954.properties propsfile=F:\Studies\generics_ant\junit4499430280232430803.properties" />
+    <property name="java.class.path" value="F:\Studies\generics_ant\lib\junit-4.12.jar;F:\Studies\generics_ant\lib\hamcrest-core-1.3.jar;F:\Studies\generics_ant\build\main;F:\Studies\generics_ant\build\test;C:\Users\User\apache-ant-1.9.7\lib\ant-launcher.jar;C:\Users\User\apache-ant-1.9.7\lib\ant.jar;C:\Users\User\apache-ant-1.9.7\lib\ant-junit.jar;C:\Users\User\apache-ant-1.9.7\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\" />
+    <property name="test.src" value="F:\Studies\generics_ant\src\test\java" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="F:\Studies\generics_ant" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="basedir" value="F:\Studies\generics_ant" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Users\User\apache-ant-1.9.7\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1251" />
+    <property name="sun.stderr.encoding" value="cp866" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="dist" />
+  </properties>
+  <testcase classname="com.goit.generics.SerialExecutorTest" name="testExecutor" time="0.113" />
+  <testcase classname="com.goit.generics.SerialExecutorTest" name="testExecuteWithoutValidator" time="0.0" />
+  <testcase classname="com.goit.generics.SerialExecutorTest" name="testExecuteWithValidator" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

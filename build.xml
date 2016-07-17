@@ -1,0 +1,66 @@
+<project name="GoIT" basedir=".">
+
+    <property name = "src" location="src/main/java"/>
+    <property name = "build" location="build/main"/>
+    <property name = "dist" location="dist"/>
+    <property name = "test.src" location="src/test/java"/>
+    <property name = "test.build" location="build/test"/>
+    <property name = "test.report" location="build/test/report"/>
+
+    <path id = "classpath.test">
+        <pathelement location = "lib/junit-4.12.jar"/>
+        <pathelement location = "lib/hamcrest-core-1.3.jar"/>
+        <pathelement location="${build}"/>
+        <pathelement location="${test.build}"/>
+    </path>
+
+    <target name = "init" depends="clean">
+        <mkdir dir = "${build}"/>
+        <mkdir dir = "${test.build}"/>
+        <mkdir dir = "${test.report}"/>
+        <mkdir dir = "${dist}"/>
+    </target>
+
+    <target name = "compile" depends = "init">
+        <javac includeantruntime="false" srcdir = "${src}" destdir = "${build}" source = "1.8" target = "1.8"/>
+    </target>
+
+    <target name = "compile.test" depends = "compile">
+        <javac includeantruntime="false" srcdir = "${test.src}" destdir = "${test.build}" source = "1.8" target = "1.8">
+            <classpath>
+                <path refid = "classpath.test"/>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="junit" depends="compile.test">
+        <junit printsummary="yes" haltonfailure="yes" fork="true">
+            <classpath>
+                <path refid="classpath.test" />
+            </classpath>
+
+            <test name="com.goit.generics.SerialExecutorTest" haltonfailure="yes" todir="${test.report}">
+                <formatter type="plain" />
+                <formatter type="xml" />
+            </test>
+        </junit>
+    </target>
+
+    <target name="dist" depends="junit">
+        <jar destfile = "${dist}/generics.jar">
+            <fileset dir ="${build}"/>
+            <manifest>
+                <attribute name = "Main-Class" value = "com.goit.generics.Runner"/>
+            </manifest>
+        </jar>
+    </target>
+
+
+    <target name="clean">
+        <delete dir="${build}"/>
+        <delete dir="${dist}"/>
+        <delete dir="${test.build}"/>
+        <delete dir="${test.report}"/>
+    </target>
+
+</project>
