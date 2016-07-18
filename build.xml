@@ -47,7 +47,7 @@
     </target>
 
     <target name="dist" depends="junit">
-        <jar destfile = "${dist}/generics.jar">
+        <jar destfile = "${dist}/executable.jar">
             <fileset dir ="${build}"/>
             <manifest>
                 <attribute name = "Main-Class" value = "com.goit.generics.Runner"/>
